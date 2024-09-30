@@ -1,0 +1,88 @@
+main{
+  background-color: white; /* Dark background */
+  color: black; /* Light text */
+}
+main.dark{
+  background-color: #171e2b; /* Dark header */
+  color: white;
+}
+header.dark{
+  background-color: #131e35; /* Dark background */
+  color: #f7fafc; /* Light text */
+}
+
+/* Dark mode styling */
+.search-bar.dark {
+  background-color: #2d3748; /* Dark background for input */
+  color: #f7fafc; /* Light text */
+  border: 1px solid white;
+
+}
+
+.search-bar.dark input {
+  background-color: #2d3748; /* Transparent to show the dark background */
+  color: white;
+}
+
+.search-bar.dark svg {
+  color: #f7fafc; /* Light icon */
+}
+
+.filter-list.dark {
+  background-color: #2d3748; /* Dark background for select */
+  color: white; /* Light text */
+  border: 1px solid white;
+
+}
+
+/* Light mode styling */
+.search-bar {
+  background-color: white; /* Light background */
+  color: black; /* Dark text */
+  border: 1px solid black;
+}
+
+.search-bar input {
+  background-color:white ; /* Transparent to show the light background */
+  color: black;
+}
+
+.search-bar svg {
+  color: #2d3748; /* Dark icon */
+}
+
+.filter-list {
+  background-color: white; /* Light background */
+  color:black ; /* Dark text */
+  border: 1px solid black;
+}
+
+/* Common styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  /* border-radius: 0.375rem;  */
+  max-width: 16rem;
+  height: 2rem;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 90%;
+  font-size: 1rem;
+}
+
+.filter-list {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  height: 2rem;
+  width: 16rem;
+  /* border-radius: 0.375rem; */
+  outline: none;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
